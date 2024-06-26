@@ -1,6 +1,8 @@
-
+.Inicio{
+    font-size: 20px;
+}
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -168,7 +170,11 @@ footer {
 }
 .download{
  width: 150px;height: 100px;text-decoration: none;color: black;font-size: 20px;padding-right: 15px;
+display: flexbox;
 }
 .download:hover{
     background: red;width: 150px;height: 100px;text-decoration: none;color: #fff;
+}
+.DOWNLOADS{
+    padding-top: 10px;
 }
