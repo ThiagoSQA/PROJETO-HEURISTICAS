@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEGUNDA PAGINA</title>
-    <link rel="stylesheet" type="text/css" href="assets2.css">
+    <link rel="stylesheet" type="text/css" href="assets.css">
 </head>
 <body>
+
+    <h2>Contato</h2>
+       
+    <div>
+    <form action="https://api.staticforms.xyz/submit" method="post" >
+        <input type="hidden" name="accesskey" value=" c8482292-28c9-4e29-aef7-55465c9a91fc ">
+    
+        <label for="nome">Nome:</label>
+        <input type="text" id="inputNome" name="name" required maxlength="30" minlength="4" >
+        <span></span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="inputEmail" name="email" required maxlength="60"  >
+        <span></span>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="message" id="textAreaMensagem" required maxlength="200" ></textarea>
+        <span></span>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+
+
+
+
+
+
     <a href="main.html">primeira pagina</a>
 </body>
 </html>
