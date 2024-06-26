@@ -1,12 +1,14 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    padding-inline: 15px;
 }
 
 header {
-    background-color: #333;
+    background-color: #999;
     color: white;
     padding: 1em;
 }
@@ -128,7 +130,7 @@ input + span::before{
 
 position: absolute;
 right: 10px;
-top: -3px;
+top: -60px;
 
 }
 
@@ -136,12 +138,12 @@ textarea + span::before{
 
     position: absolute;
     right: 10px;
-    top: -65px;
+    top: -95px;
 
     }
 
 footer {
-    background-color: #333;
+    background-color: #999;
     color: white;
     text-align: center;
     padding: 1em;
@@ -163,4 +165,10 @@ footer {
 
     }
 
+}
+.download{
+ width: 150px;height: 100px;text-decoration: none;color: black;font-size: 20px;padding-right: 15px;
+}
+.download:hover{
+    background: red;width: 150px;height: 100px;text-decoration: none;color: #fff;
 }
