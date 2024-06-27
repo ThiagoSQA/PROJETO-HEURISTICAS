@@ -1,4 +1,46 @@
 
+header {
+    width: 100vw;
+    background-color: #999;
+    color: white;
+    display: flex;
+    margin: 0px;
+    position: relative;
+}
+
+h2, P{
+
+text-align: center;
+
+
+}
+
+nav{
+    width: 100vw;
+    padding: 0 30vw;
+}
+
+nav ul {
+    display: flex;
+    padding-right: 2rem;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+.paginaUM{
+
+color: #fff;
+border: solid #999 !important;
+margin-left: auto;
+margin-right: 10%;
+
+}
+
+.logo{
+    height: 100px;
+}
 
 
 .row{
