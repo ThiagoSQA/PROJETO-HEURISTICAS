@@ -1,43 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEGUNDA PAGINA</title>
-    <link rel="stylesheet" type="text/css" href="assets.css">
+    <link rel="stylesheet" type="text/css" href="assets2.css">
     <script src="script.js"></script>
 </head>
 <body>
 
     <h2>Contato</h2>
+    <p>Entre em contato conosco aqui:</p><br><br><br>
        
-    <div>
-    <form action="https://api.staticforms.xyz/submit" method="post" >
-        <input type="hidden" name="accesskey" value=" c8482292-28c9-4e29-aef7-55465c9a91fc ">
+    <div class="row">
+    <form action="https://www.staticforms.xyz" method="POST"  class="card" >
+        <input type="hidden" name="accesskey" value="44a759de-afa8-47d4-8a63-f065b063475d">
     
-        <label for="nome">Nome:</label>
+        <label for="inputNome">Nome:</label>
         <input type="text" id="inputNome" name="name" required maxlength="30" minlength="4" >
         <span></span>
 
-        <label for="email">Email:</label>
+        <label for="inputEmail">Endereço de Email:</label>
         <input type="email" id="inputEmail" name="email" required maxlength="60"  >
         <span></span>
 
-        <label for="mensagem">Mensagem:</label>
+        <label for="textAreaMensagem">Mensagem:</label>
         <textarea name="message" id="textAreaMensagem" required maxlength="200" ></textarea>
         <span></span>
 
         <button type="submit">Enviar</button>
     </form>
-</div>
+</div><br><br><br>
 
 
+    <a class="paginaUm" href="main.html" class="download">primeira pagina</a><br><br>
 
 
+    <footer>
 
+        <p>&copy; 2024 . Todos os direitos reservados.</p>
+        <p>Nosso Email:<br> melomicael57@gmail.com<br>
+            qthiago580@gmail.com<br><br>
+    
 
-
-    <a href="main.html" class="download">primeira pagina</a>
-    <a rel="link"href="https://www.instagram.com/medithreadoficial?igsh=YmRhcmU2ZWthZjgy" class="download">PÁGINA DO INSTAGRAM</a>
+            <a class="insta" rel="link"href="https://www.instagram.com/medithreadoficial?igsh=YmRhcmU2ZWthZjgy" class="download">PÁGINA DO INSTAGRAM</a>
+        </p>
+    
+    </footer>
 </body>
 </html>
